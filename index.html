@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Notes</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/x-icon" href="notebook-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Note App</title>
+  </head>
+
+  <body>
+    <div id="noteCardContainer" class="noteCard">
+      <div class="windowTitleBar">
+        <span class="windowTitle">Note App</span>
+        <div class="windowControls">
+          <button class="windowControlButton" title="Minimize">-</button>
+          <button class="windowControlButton" title="Maximize">+</button>
+          <button class="windowControlButton" title="Close">x</button>
+        </div>
+      </div>
+      <div class="noteContent">
+        <form id="createForm">
+          <input type="text" name="title" placeholder="Title" required />
+          <textarea name="body" placeholder="Note body" required></textarea>
+          <button type="submit">Create Note</button>
+        </form>
+
+        <h1 class="noteHeader">Notes</h1>
+
+        <form id="editForm" class="hidden">
+          <h2 class="noteHeader">Edit Note</h2>
+          <input type="text" placeholder="Title" required />
+          <textarea placeholder="Note body" required></textarea>
+          <button type="submit">Save</button>
+          <button
+            type="button"
+            onclick="this.parentElement.classList.add('hidden')"
+          >
+            Cancel
+          </button>
+        </form>
+
+        <div id="container"></div>
+      </div>
+    </div>
+  </body>
 </html>
