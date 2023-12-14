@@ -1,7 +1,7 @@
 # QuickNotes: Dynamic AJAX Note-Taking App
 
 ## Introduction
-Welcome to QuickNotes, my personal project showcasing a dynamic, AJAX-powered note-taking application. It's a sleek and user-friendly platform for managing your notes, inspired by the simplicity and efficiency of modern apps.
+Welcome to QuickNotes, my personal project showcasing a dynamic, AJAX-powered note-taking application. It's a sleek and user-friendly platform for managing your notes, inspired by the simplicity and efficiency of modern apps with a retro look.
 
 ## Getting Started
 First things first, let's get the app running on your machine:
