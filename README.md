@@ -3,6 +3,8 @@
 ## Introduction
 Welcome to QuickNotes, my personal project showcasing a dynamic, AJAX-powered note-taking application. It's a sleek and user-friendly platform for managing your notes, inspired by the simplicity and efficiency of modern apps with a retro look.
 
+![Retro Style Note Taking App](retro_style_note_taking_app.png)
+
 ## Getting Started
 First things first, let's get the app running on your machine:
 
